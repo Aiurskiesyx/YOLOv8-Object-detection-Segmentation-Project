@@ -1,6 +1,3 @@
 # YOLOv8 Object Detection & Segmentation
 
-Implementasi deteksi objek dan segmentasi instans menggunakan model **YOLOv8**. **Tujuan dari proyek ini adalah untuk membangun sistem yang dapat mengenali sekaligus memetakan batas objek secara akurat pada data gambar.** 
-
-## 📂 Berkas Utama
-- `yolov8-object-detection-segmentation.ipynb`
+This repository contains the implementation of object detection and instance segmentation using the **YOLOv8** model. The primary goal of this project is to build a system capable of analyzing image data with high precision. It is designed not just to identify the presence of objects within an image, but also to accurately map their exact boundaries. Unlike standard object detection that merely provides a bounding box, the segmentation approach used here isolates the object by tracing its actual shape down to the pixel level. This enables the system to differentiate between the primary object and the background with significantly higher accuracy.
